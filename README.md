@@ -1,17 +1,27 @@
 # Particle Physics Sandbox (SFML)
 
-Un simulatore interattivo di particelle scritto in **C++** con **SFML**. Questo progetto dimostra l'uso della matematica vettoriale e della fisica applicata allo sviluppo di videogiochi.
+An interactive particle simulator built with **C++** and **SFML**. This project serves as a demonstration of vector mathematics and applied physics in the context of game development.
 
-## Funzionalità
-- **Fisica Realistica**: Gravità, attrito dell'aria e rimbalzi elastici.
-- **Collisioni**: Rimbalzi su ostacoli circolari tramite riflessione vettoriale (Prodotto Scalare).
-- **Interazione**: Clicca con il mouse per generare esplosioni radiali che respingono le particelle.
-- **Ottimizzazione**: Sistema di riciclo delle particelle (Object Pooling) per mantenere alte prestazioni.
-- **Grafica**: Effetto scia e colori dinamici basati sulla velocità.
+## 🚀 Key Features
 
-## Requisiti
-- Compilatore C++ (C++17 o superiore)
-- Libreria SFML 3.0+
+- **Realistic Physics:** Accurate simulation of gravity, air friction (drag), and elastic bounces.
+- **Advanced Collisions:** Particles bounce off circular obstacles using vector reflection based on the **Dot Product**.
+- **User Interaction:** Click anywhere to trigger radial explosions that realistically repel nearby particles.
+- **Optimization:** Implements an **Object Pooling** system to recycle particles, ensuring high performance even with a large number of entities.
+- **Visuals:** Dynamic color shifting based on particle velocity and smooth trail effects.
 
-## Controlli
-- **Mouse SX**: Genera una spinta esplosiva dalla posizione del cursore.
+## 🎮 Controls
+
+- **Left Click:** Trigger a radial explosion at the cursor position to push particles away.
+
+## 🛠 Tech Stack
+
+- **Language:** C++ (C++17 or higher)
+- **Graphics Library:** SFML 3.0+
+- **Mathematics:** Vector Algebra (Reflection, Normalization, Dot Product)
+
+## 🔧 Installation & Usage
+
+1. Ensure **SFML 3.0+** is installed and correctly linked in your project settings.
+2. Compile the source files using a C++17 compatible compiler.
+3. Run the executable to start the sandbox.
